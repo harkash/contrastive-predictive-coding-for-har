@@ -11,7 +11,7 @@ In this work, we focus on the fourth step -- which is feature extraction, and ac
 We first split the dataset by participants to form the `train-val-test` splits. 
 Of the available participants, 20% are chosen randomly for testing whereas the remaining 80% are further divided randomly into the train and validation splits at a 80:20 ratio.
 The train data is normalized to have zero mean and unit variance, which are subsequently applied to the validation and test splits as well to get the pre-processed data.
-The processed data for Mobiact can be accessed [here](https://gatech.box.com/s/3urr2mf4lntf57y2ef64ogpl4ijla87b). 
+The processed data for Mobiact can be accessed [~~here~~](https://gatech.box.com/s/3urr2mf4lntf57y2ef64ogpl4ijla87b) [here](https://www.dropbox.com/s/17ftg0368mwsidx/mobiact.mat?dl=0). 
 Please download and add it to a new folder called `data`.  
    
 The sliding window process is applied to segment one second of data with 50% overlap. 
